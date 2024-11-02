@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Fundation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">CRICKET LEAGUE</div>
+                <div class="nav-links" id="navLinks">
+                    <button onclick="scrollToSection('home')">Home</button>
+                    <button onclick="scrollToSection('highlights')">Highlights</button>
+                    <button onclick="scrollToSection('contact')">Contact Us</button>
+                    <button onclick="scrollToSection('about')">About Us</button>
+                    <button onclick="scrollToSection('register')" class="register-btn">Register Now</button>
+                    <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+<nav class="nav-links">
+  <!-- Your menu links -->
+</nav>
+
+                </div>
+                <button class="menu-toggle" id="ham">
+                    <i class="fas fa-bars" id="menuToggle"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Join the Ultimate Cricket Tournament</h1>
+                    <p>Showcase your cricket skills in the most prestigious tournament of the year.
+                       Register your team now and compete with the best teams in the region.</p>
+                    <button onclick="scrollToSection('register')" class="cta-button">Register Now</button>
+                </div>
+                <div class="hero-image">
+                    <img src="kf11.jpg" alt="Cricket Tournament">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About the Tournament</h2>
+            <div class="about-content">
+                <p>Our cricket tournament brings together the finest cricket talent,
+                   fostering competitive spirit and sportsmanship. With state-of-the-art
+                   facilities and professional organization, we ensure an unforgettable
+                   cricket experience.</p>
+                <p>Join us for an action-packed season of cricket featuring teams from
+                   across the region, competing for prestigious trophies and prizes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section id="highlights" class="highlights-section">
+        <div class="container">
+            <h2>Tournament Highlights</h2>
+            <div class="slideshow-container">
+                <div class="slides">
+                    <img src="kf1.jpg" alt="Tournament Highlight 1" class="slide active">
+                    <img src="kf12.jpg" alt="Tournament Highlight 2" class="slide">
+                    <img src="kf3.jpg" alt="Tournament Highlight 3" class="slide">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register" class="register-section">
+        <div class="container">
+            <h2> Registration</h2>
+            <div class="form-container">
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label> Contact Number</label>
+                        <input type="tel" required>
+                    </div>
+                    <div class="form-group">
+                        <label> Age</label>
+                        <input type="number" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label> Speciality</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>State</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>City</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I accept the terms and conditions</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <p>Have questions about the tournament? Get in touch with us.</p>
+                <p>Email: rupendras.chauhan@gmail.com</p>
+                <p>Phone: +91 9887638839</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About Tournament</h3>
+                    <p>The premier cricket tournament celebrating excellence in sports.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><button onclick="scrollToSection('about')">About Us</button></li>
+                        <li><button onclick="scrollToSection('contact')">Contact Us</button></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <!-- <li><a href="#">Privacy Policy</a></li> -->
+                        <!-- <li><a href="#">Cookie Policy</a></li> -->
+                        <li><a href="#">Tournament Rules</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100088219060647&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/krishna_foundation_jaora?igsh=dHJtZTZicmZnano="><i class="fab fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fab fa-youtube"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Copyright Krishna Foundation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn" class="scroll-top-btn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
